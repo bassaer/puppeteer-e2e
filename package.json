@@ -1,0 +1,41 @@
+{
+  "name": "puppeteer-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "dev": "nodemon",
+      "build": "next build && tsc --project tsconfig.server.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassaer/puppeteer-e2e.git"
+  },
+  "keywords": [],
+  "author": "Tsubasa Nakayama <app.nakayama@gmail.com> (https://bassaer.github.io/me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bassaer/puppeteer-e2e/issues"
+  },
+  "homepage": "https://github.com/bassaer/puppeteer-e2e#readme",
+  "devDependencies": {
+    "@types/copy-webpack-plugin": "^10.1.0",
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@types/webpack": "^5.28.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "nodemon": "^2.0.15",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
