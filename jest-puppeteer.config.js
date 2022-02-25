@@ -6,7 +6,7 @@ module.exports = {
   server: {
     command: 'yarn dev',
     port: 3000,
-    launchTimeout: 10000
+    launchTimeout: 30000
   },
   product: 'chrome',
 }
